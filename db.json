@@ -1,0 +1,25 @@
+{
+    "words": [
+        {
+            "id": 1,
+            "originalLanguage": "english",
+            "originalWord": "first",
+            "translatedLanguage": "french",
+            "translatedWord": "premier"
+        },
+        {
+            "id": 2,
+            "originalLanguage": "english",
+            "originalWord": "second",
+            "translatedLanguage": "french",
+            "translatedWord": "deuxième"
+        },
+        {
+            "id": 3,
+            "originalLanguage": "english",
+            "originalWord": "third",
+            "translatedLanguage": "french",
+            "translatedWord": "troisième"
+        }
+    ]
+}
