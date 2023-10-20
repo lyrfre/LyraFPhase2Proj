@@ -8,12 +8,10 @@ function LangCard({ id, originalLanguage, originalWord, translatedLanguage, tran
   // function handleFavorite() {
   //   setFavorite((isFavorite) => !isFavorite)
     return (
-      <div>
-        <li className="wordCard">
-          <h4>Original Language:{originalLanguage}</h4>
-          <h4>Original word: {originalWord}</h4>
-          <h4>Translated Language: {translatedLanguage}</h4>
-          <h4>Translated Word: {translatedWord}</h4>
+      <div id="wordCard">
+        <li>
+          <h4 id="originalWord">Original word: {originalWord} ({originalLanguage})</h4>
+          <h4 id="translatedWord">Translated Word: {translatedWord} ({translatedLanguage}) </h4>
           {/* <div className="details">
             {isFavorite ? (
               <button className="emoji-button favorite active" onClick={handleFavorite}>★</button>

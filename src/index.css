@@ -12,13 +12,32 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  
+}
+#home-text{
+  justify-content: center;
+
 }
 
 .navBarLink {
-  margin-right: 10px;
-  margin-left: 10px;
-  padding-right: 10px;
-  padding-left: 10px
+  /* margin-right: 100px; */
+  /* margin-left: 10px; */
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: lightblue;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 80px;
+  margin-right: 50px;
+  justify-content: space-evenly;
+
 }
 
 
@@ -31,30 +50,81 @@ a {
 a:hover {
   color: #535bf2;
 }
-
+#root{
+  background-color: beige;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: beige;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+}
+#title-header {
+  font-style: serif;
+}
+
+.languageSelection{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#translated-word-card{
+  justify-content: center;
+  display:flex;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: lightblue;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
 }
 
 .new-word-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5)
+  background-color: rgba(181, 250, 181, 0.5);
+  display: flex;
+  justify-content: center;
   }
   
   .new-word-form form {
     display: flex;
     justify-content: center
+    padding:
   }
+
+
+#wordCard{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-color: pink;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: dotted;
+}
+#originalLanguage{
+  color: grey;
+
+}
 
 button {
   border-radius: 8px;

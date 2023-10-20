@@ -35,9 +35,9 @@ function LangContainer({ words, setWords }) {
       words.map((word) => {
         return (<LangCard
           key = {word.id}
-          originalLanguage= {word.originalLanguage}
+          originalLanguage= {word.originalLang}
           originalWord={word.originalWord} 
-          translatedLanguage={word.translatedLanguage}
+          translatedLanguage={word.translatedLang}
           translatedWord= {word.translatedWord}
           words={words}
           setWords={setWords}/>)

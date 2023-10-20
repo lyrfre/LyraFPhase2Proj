@@ -5,8 +5,8 @@ import React from "react"
 //instructions and introduction here
 function Home() {
   return (
-    <div>
-      <h1>Welcome to my translating app!</h1>
+    <div id="home-text">
+      <h1>Instructions:</h1>
       <h2>To translate text:</h2>
       <p>1.Click on the "form" component link in the header</p>
       <p>2.Submit your word to be translated!</p>

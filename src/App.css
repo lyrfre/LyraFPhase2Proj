@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -17,6 +17,13 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+#wordCard{
+  background-color: lightblue;
+  text-align: center;
+  border-color: pink;
+
 }
 
 .navBarLink {
@@ -30,10 +37,10 @@
   margin-right: 100px;
   margin-left: 100px;
   padding-right: 100px;
-  padding-left: 100px
+  padding-left: 100px;
 }
 
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -54,4 +61,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
