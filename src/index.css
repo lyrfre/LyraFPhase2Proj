@@ -16,8 +16,21 @@
   
 }
 #home-text{
-  justify-content: center;
+margin-top: 20px;
+padding-left: 20px;
+margin-left: 400px;
+padding-right:20px;
+margin-right:400px;
+background-color: rgb(254, 254, 232);
+border-color: lightcoral;
+border-style:dotted;
+font-family: serif;
+}
 
+
+#save-button{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navBarLink {
@@ -38,6 +51,13 @@
   margin-right: 50px;
   justify-content: space-evenly;
 
+}
+
+#language-focus-card {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: dotted
 }
 
 
@@ -82,6 +102,10 @@ h1 {
   margin-right: 20px;
 }
 
+#translated-word{
+  padding-right: 20px;
+}
+
 #translated-word-card{
   justify-content: center;
   display:flex;
@@ -106,8 +130,7 @@ h1 {
   
   .new-word-form form {
     display: flex;
-    justify-content: center
-    padding:
+    justify-content: center;
   }
 
 
@@ -119,6 +142,8 @@ h1 {
   border-color: pink;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
   border-style: dotted;
 }
 #originalLanguage{
@@ -138,7 +163,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #646cdaff;
 }
 button:focus,
 button:focus-visible {
@@ -151,7 +176,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #383a72;
   }
   button {
     background-color: #f9f9f9;

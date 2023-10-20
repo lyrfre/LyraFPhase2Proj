@@ -130,8 +130,10 @@ function LangForm({ updateWords }) {
       </form>
       {translatedWord &&
         <div id="translated-word-card">
-          <p>Your translation: {translatedWord}</p>
-          <button id="save-button" onClick={jsonPost}>Save Translation!</button>
+          <p id="translated-word">Your translation: {translatedWord}</p>
+          <div>
+            <button id="save-button" onClick={jsonPost}>Save Translation!</button>
+          </div>
         </div>
       }
 

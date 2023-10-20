@@ -8,7 +8,7 @@ function NavLayout() {
           <div className="navBarLinks">
             <NavLink to="/" className="navBarLink" >Instructions</NavLink>
             <Link to="/langForm" className="navBarLink" >Translate Words</Link>
-            <Link to="/favorites" className="navBarLink" >Favorite Words</Link>
+            <Link to="/favorites" className="navBarLink" >Focus Language</Link>
             <Link to="/wordspage" className="navBarLink" >Translation History</Link>
           </div>
         </nav>
